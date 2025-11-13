@@ -5,6 +5,7 @@ on:
     branches: [ main, master ]
   pull_request:
 
+    
 jobs:
   gitleaks:
     runs-on: ubuntu-latest
